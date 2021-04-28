@@ -1,0 +1,16 @@
+.container{
+    justify-content: center;
+}
+.my-cart {
+    color: #74C69D;
+    background-color: white;
+}
+#checkout{
+    background-color: #74C69D;
+}
+.checkout-options{
+    color: #74C69D;
+}
+.sub{
+    background-color: #74C69D; 
+}
