@@ -11,22 +11,31 @@
 <body>
     <div class="continer">
         <div class="row">
-            <div class="col-md-6 cart-items">
+            <div class="col-md-6 cart-items hidden">
                 <h2>Your shoping cart</h2>
                     <table class="table table-striped table-dark">
                         <thead>
                             <tr>
-                                <th scope="col">Type</th>
+                                <th scope="col">Product</th>
                                 <th scope="col">Quantity</th>
                                 <th scope="col">Total</th>
                             </tr>
                         </thead>
                         <tbody id="order-summary"></tbody>
                     </table>
+                    <p class="delivery-cost hidden">
+                        Delivery: Ksh. <span id="delivery-amount"></span>
+                    </p>
+                    <p class="total-amount hidden">
+                        Total: Ksh. <span id="total-amount"></span>
+                    </p>
+                    <br /><br />
                 <button class="btn btn-primary hidden" id="checkout">Checkout</button>
             </div>
         </div>
     </div>
     
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="./JS/script.js"></script>
 </html>

@@ -61,3 +61,58 @@ var cart=[];
 var customerName = "";
 var totalCost = 0
 var estate = "";
+
+$("#brocoli").click(function(){
+    $(".cart-items").append(".Brocoli")
+});
+$("#mango").click(function(){
+    $(".cart-items").append(".Mango")
+});
+$("#lemon").click(function(){
+    $(".cart-items").append(".Lemon")
+});
+$("#spinach").click(function(){
+    $(".cart-items").append(".Spinach")
+});
+$("#sukuma").click(function(){
+    $(".cart-items").append(".Sukuma")
+});
+$("#peas").click(function(){
+    $(".cart-items").append(".Peas")
+});
+$("#avocado").click(function(){
+    $(".cart-items").append(".Avocado")
+});
+$("#zucini").click(function(){
+    $(".cart-items").append(".Zuccini")
+});
+$("#tomato").click(function(){
+    $(".cart-items").append(".Tomato")
+});
+$("#olives").click(function(){
+    $(".cart-items").append(".Black")
+});
+$("#apple").click(function(){
+    $(".cart-items").append(".Apple")
+});
+$("#straw").click(function(){
+    $(".cart-items").append(".Berries")
+});
+$("#pears").click(function(){
+    $(".cart-items").append(".Pears")
+});
+$("#sprouts").click(function(){
+    $(".cart-items").append(".Brussels")
+});
+$("#green").click(function(){
+    $(".cart-items").append(".Green")
+});
+$("#carrots").click(function(){
+    $(".cart-items").append(".Carrots")
+});
+$("#cabbage").click(function(){
+    $(".cart-items").append(".Cabbage")
+});
+$("#oranges").click(function(){
+    $(".cart-items").append(".Oranges")
+});
