@@ -169,10 +169,10 @@ h2::after {
   width: 40px;
   background: none;
   margin: auto 0;
-  background: rgba(0, 0, 0, 0.2);
+  background: white;
 }
 .carousel .carousel-control i {
-  font-size: 30px;
+  font-size: 50px;
   position: absolute;
   top: 50%;
   display: inline-block;
@@ -192,10 +192,18 @@ h2::after {
 }
 .carousel .carousel-control.left i {
   margin-left: -3px;
+  color: #52b788;
 }
 .carousel .carousel-control.left i {
   margin-right: -3px;
 }
+.carousel .carousel-control.right i {
+    margin-left: -3px;
+    color: #52b788;
+  }
+  .carousel .carousel-control.right i {
+    margin-right: -3px;
+  }
 .container {
   padding-top: 4%;
 }
