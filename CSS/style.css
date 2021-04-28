@@ -191,3 +191,9 @@ h2::after {
 .container {
     padding-top: 4%;
 }
+#mid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 66%;
+}
