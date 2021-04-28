@@ -16,3 +16,45 @@ let Grocery7 = new Grocery("Tomato", "15");
 let Grocery8 = new Grocery("Broccoli", "50");
 
 var cart=[];
+
+Grocery.prototype.GetFruitscost= function(){
+
+    if(this.Fruit=="Oranges"){
+        return 15
+    }
+    else if(this.Fruit=="Pears"){
+        return 20
+    }
+    else if(this.Fruit=="Mango"){
+        return 40
+    }
+    else if (this.Fruit=="Strawberries"){
+        return 100
+    }
+    else if(this.Fruit=="Ovacado"){
+        return 30
+    }
+    else 
+        return 50   
+}
+
+Grocery.prototype.Vegetablescost= function(){
+
+    if(this.Vegetable=="Sukuma-wiki"){
+        return 25
+    }
+    else if(this.Vegetable=="Brocoli"){
+        return 20
+    }
+    else if(this.Vegetable=="Green peppers"){
+        return 30
+    }
+    else if (this.Vegetable=="Peas"){
+        return 20
+    }
+    else if(this.Vegetable=="Zucchini"){
+        return 30
+    }
+    else 
+        return 50   
+}
