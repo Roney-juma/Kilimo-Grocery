@@ -2,6 +2,10 @@ function Grocery (name, price) {
     this.name = name;
     this.price = price;
 }
+Grocery.prototype.Ordersummary= function (){
+    return this.price
+}
+
 let Grocery1 = new Grocery("Apple", "40");
 let Grocery2 = new Grocery("Black Olives 100g", "250");
 let Grocery3 = new Grocery("Mango", "40");
