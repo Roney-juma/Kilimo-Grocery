@@ -1,16 +1,16 @@
 .topnav {
   overflow: hidden;
-  background-color: #e63946;
+  background-color: #74C69D;
 }
 
 .topnav a {
   float: right;
-  color: #f1faee;
+  color: #D8F3DC;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Oregano", sans-serif;
 }
 
 .topnav a:hover {
@@ -76,16 +76,15 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 h2 {
-  color: #000;
+  color: #081C15;
   font-size: 26px;
   font-weight: 300;
   text-align: center;
-  text-transform: uppercase;
   position: relative;
   margin: 30px 0 80px;
 }
 h2 b {
-  color: #ffc000;
+  color: #74C69D;
 }
 h2::after {
   content: "";
