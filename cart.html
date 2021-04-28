@@ -13,9 +13,16 @@
         <div class="row">
             <div class="col-md-6 cart-items">
                 <h2>Your shoping cart</h2>
-                <div id="selectedProduct">
-
-                </div>
+                    <table class="table table-striped table-dark">
+                        <thead>
+                            <tr>
+                                <th scope="col">Type</th>
+                                <th scope="col">Quantity</th>
+                                <th scope="col">Total</th>
+                            </tr>
+                        </thead>
+                        <tbody id="order-summary"></tbody>
+                    </table>
                 <button class="btn btn-primary hidden" id="checkout">Checkout</button>
             </div>
         </div>
