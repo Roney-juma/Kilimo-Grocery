@@ -43,3 +43,32 @@
     padding: 4px;
     font-family: "Quicksand", sans-serif;
   }
+  #logo {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 70px;
+    height: 70px;
+  }
+  #mouse-click {
+    padding-top: 22px;
+    margin-top: 10%;
+    padding-bottom: 30px;
+  }
+  #mouse-click {
+    animation: bounce 2s infinite;
+  }
+  @keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-60px);
+    }
+    60% {
+      transform: translateY(-40px);
+    }
+  }
