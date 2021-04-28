@@ -9,20 +9,14 @@
     <link rel="stylesheet" href="CSS/cart.css">
 </head>
 <body>
-    <div class="continer">
+    <div class="container">
         <div class="row">
-            <div class="col-md-6 cart-items hidden">
-                <h2>Your shoping cart</h2>
-                    <table class="table table-striped table-dark">
-                        <thead>
-                            <tr>
-                                <th scope="col">Product</th>
-                                <th scope="col">Quantity</th>
-                                <th scope="col">Total</th>
-                            </tr>
-                        </thead>
-                        <tbody id="order-summary"></tbody>
-                    </table>
+            <div class="col-md-7 my-cart hidden">
+                <h2> shoping cart</h2>
+                <div class="cart-items">
+
+                </div>
+                    
                     <p class="delivery-cost hidden">
                         Delivery: Ksh. <span id="delivery-amount"></span>
                     </p>
@@ -31,6 +25,26 @@
                     </p>
                     <br /><br />
                 <button class="btn btn-primary hidden" id="checkout">Checkout</button>
+            </div>
+            <div class="col-md-5">
+                <div class="checkout-options hide">
+                    <h3>Checkout Form</h3>
+                    <form id="checkout-form">
+                        <div class="form-group">
+                            <label>Enter your Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter Your Name" required  autocomplete="off"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">Delivery Option</label>
+                            <select class="form-control" id="delivery-option" required>
+                                <option value="">Choose...</option>
+                                <option value="deliver">Delivery</option>
+                                <option value="collect">Collection</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
