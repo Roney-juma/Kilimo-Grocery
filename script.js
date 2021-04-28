@@ -10,3 +10,5 @@ let Grocery5 = new Grocery("Pears", "20");
 let Grocery6 = new Grocery("Carrots 50g", "50");
 let Grocery7 = new Grocery("Tomato", "15");
 let Grocery8 = new Grocery("Broccoli", "50");
+
+var cart=[];
