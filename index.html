@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kilimo Groceries</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Quicksand"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oregano&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Charm:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <div class="topnav">
+    <a href="contactus.html">Contact Us</a>
+    <a href="aboutus.html">About Us</a>
+    <a href="myaccount.html">My Account</a>
+    <a class="active" href="#home">Kilimo Groceries</a>
+    <a href="offers.html">Offers</a>
+    <a href="vegetables.html">Vegetables</a>
+    <a href="fruits.html">Fruits</a>
+  </div>
+  <header>
+    <img src="./images/logo.png" alt="logo" id="logo" />
+    <h1 id="topwelcome">Welcome</h1>
+    <h1 id="topwelcome">To Kilimo Groceries</h1>
+    <p id="toptag">Your One Stop Shop For Healthy Living</p>
+    <div class="mouse-click"></div>
+    <a href="#fruitsCarousel"
+      ><img src="./images/mouse_click.png" alt=" mouse_click" id="mouse-click"
+    /></a>
+  </header>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Popular <b>Near You</b></h2>
+          <div
+            id="myCarousel"
+            class="carousel slide carousel-multi-item v-2 product-carousel"
+            data-ride="carousel"
+          >
+            <!-- Wrapper for carousel items -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="row">
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./images/broccoli.jpg"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Broccoli</h4>
+                        <p class="item-price">Ksh 50.00</p>
+
+                        <button type="button" class="btn btn-success">
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./images/strawberry.jpg"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Strawberries 100g</h4>
+                        <p class="item-price">Ksh 100.00</p>
+
+                        <button type="button" class="btn btn-success">
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./images/cilantro.jpeg"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Cilantro</h4>
+                        <p class="item-price">Ksh 5.00</p>
+
+                        <button type="button" class="btn btn-success">
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./images/avocado.jpeg"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Avocado</h4>
+                        <p class="item-price">Ksh 40.00</p>
+
+                        <button type="button" class="btn btn-success">
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./images/green peppers.jpg"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Green Peppers</h4>
+                        <p class="item-price">Ksh 20.00</p>
+
+                        <button type="button" class="btn btn-success">
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./images/black olives.jpg"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Black Olives 100g</h4>
+                        <p class="item-price">Ksh 250.00</p>
+
+                        <button type="button" class="btn btn-success">
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./images/sukuma wiki.jpeg"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Sukuma Wiki</h4>
+                        <p class="item-price">Ksh 20.00</p>
+
+                        <button type="button" class="btn btn-success">
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./images/spinach.jpg"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Spinach</h4>
+                        <p class="item-price">Ksh 20.00</p>
+
+                        <button type="button" class="btn btn-success">
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./images/oranges.jpg"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Oranges</h4>
+                        <p class="item-price">Ksh 15.00</p>
+
+                        <button type="button" class="btn btn-success">
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./images/white onions.jpg"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>White Onions</h4>
+                        <p class="item-price">Ksh 15.00</p>
+
+                        <button type="button" class="btn btn-success">
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./images/cabbage.jpeg"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Cabbage</h4>
+                        <p class="item-price">Ksh 50.00</p>
+
+                        <button type="button" class="btn btn-success">
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./images/tomato.jpg"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Tomato</h4>
+                        <p class="item-price">Ksh 15.00</p>
+
+                        <button type="button" class="btn btn-success">
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Carousel controls -->
+            <a
+              class="carousel-control left"
+              href="#myCarousel"
+              data-slide="prev"
+            >
+              <i class="fa fa-angle-left"></i>
+            </a>
+            <a
+              class="carousel-control right"
+              href="#myCarousel"
+              data-slide="next"
+            >
+              <i class="fa fa-angle-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="mid">
+      <img src="./images/mid.jpg" alt="Fruits" />
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Fresh Fruits <b>For You</b></h2>
+          <div
+            id="fruitsCarousel"
+            class="carousel slide carousel-multi-item v-2 product-carousel"
+            data-ride="carousel"
+          >
+            <!-- Wrapper for carousel items -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="row">
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./images/pears.jpg"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Pears</h4>
+                        <p class="item-price">Ksh 20.00</p>
+
+                        <button type="button" class="btn btn-success">
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./images/strawberry.jpg"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Strawberries 100g</h4>
+                        <p class="item-price">Ksh 100.00</p>
+
+                        <button type="button" class="btn btn-success">
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./images/oranges.jpg"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Oranges</h4>
+                        <p class="item-price">Ksh 15.00</p>
+
+                        <button type="button" class="btn btn-success">
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./images/avocado.jpeg"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Avocado</h4>
+                        <p class="item-price">Ksh 40.00</p>
+
+                        <button type="button" class="btn btn-success">
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./images/apples.jpeg"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Apple</h4>
+                        <p class="item-price">Ksh 40.00</p>
+
+                        <button type="button" class="btn btn-success">
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./images/black olives.jpg"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Black Olives 100g</h4>
+                        <p class="item-price">Ksh 250.00</p>
+
+                        <button type="button" class="btn btn-success">
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./images/Lemon.jpg"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Lemon</h4>
+                        <p class="item-price">Ksh 20.00</p>
+
+                        <button type="button" class="btn btn-success">
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./images/mango.png"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Mango</h4>
+                        <p class="item-price">Ksh 40.00</p>
+
+                        <button type="button" class="btn btn-success">
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./images/oranges.jpg"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Oranges</h4>
+                        <p class="item-price">Ksh 15.00</p>
+
+                        <button type="button" class="btn btn-success">
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./images/white onions.jpg"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>White Onions</h4>
+                        <p class="item-price">Ksh 15.00</p>
+
+                        <button type="button" class="btn btn-success">
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./images/cabbage.jpeg"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Cabbage</h4>
+                        <p class="item-price">Ksh 50.00</p>
+
+                        <button type="button" class="btn btn-success">
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./images/tomato.jpg"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Tomato</h4>
+                        <p class="item-price">Ksh 15.00</p>
+
+                        <button type="button" class="btn btn-success">
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Carousel controls -->
+            <a
+              class="carousel-control left"
+              href="#fruitsCarousel"
+              data-slide="prev"
+            >
+              <i class="fa fa-angle-left"></i>
+            </a>
+            <a
+              class="carousel-control right"
+              href="#fruitsCarousel"
+              data-slide="next"
+            >
+              <i class="fa fa-angle-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Fresh Vegetables <b>For You</b></h2>
+          <div
+            id="vegCarousel"
+            class="carousel slide carousel-multi-item v-2 product-carousel"
+            data-ride="carousel"
+          >
+            <!-- Wrapper for carousel items -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <div class="row">
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./images/broccoli.jpg"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Broccoli</h4>
+                        <p class="item-price">Ksh 50.00</p>
+
+                        <button type="button" class="btn btn-success">
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./images/peas.jpeg"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Peas 100g</h4>
+                        <p class="item-price">Ksh 100.00</p>
+
+                        <button type="button" class="btn btn-success">
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./images/cilantro.jpeg"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Cilantro</h4>
+                        <p class="item-price">Ksh 5.00</p>
+
+                        <button type="button" class="btn btn-success">
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./images/zucchini.png"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Zucchini</h4>
+                        <p class="item-price">Ksh 30.00</p>
+
+                        <button type="button" class="btn btn-success">
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./images/green peppers.jpg"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Green Peppers</h4>
+                        <p class="item-price">Ksh 20.00</p>
+
+                        <button type="button" class="btn btn-success">
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./images/brussels.png"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Brussels Sprouts</h4>
+                        <p class="item-price">Ksh 50.00</p>
+
+                        <button type="button" class="btn btn-success">
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./images/sukuma wiki.jpeg"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Sukuma Wiki</h4>
+                        <p class="item-price">Ksh 20.00</p>
+
+                        <button type="button" class="btn btn-success">
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./images/spinach.jpg"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Spinach</h4>
+                        <p class="item-price">Ksh 20.00</p>
+
+                        <button type="button" class="btn btn-success">
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="row">
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./images/carrots.png"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>carrots 50g</h4>
+                        <p class="item-price">Ksh 50.00</p>
+
+                        <button type="button" class="btn btn-success">
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./images/white onions.jpg"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>White Onions</h4>
+                        <p class="item-price">Ksh 15.00</p>
+
+                        <button type="button" class="btn btn-success">
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./images/cabbage.jpeg"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Cabbage</h4>
+                        <p class="item-price">Ksh 50.00</p>
+
+                        <button type="button" class="btn btn-success">
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="thumb-wrapper">
+                      <div class="img-box">
+                        <img
+                          src="./images/tomato.jpg"
+                          class="img-responsive"
+                          alt=""
+                        />
+                      </div>
+                      <div class="thumb-content">
+                        <h4>Tomato</h4>
+                        <p class="item-price">Ksh 15.00</p>
+
+                        <button type="button" class="btn btn-success">
+                          Add to Cart
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Carousel controls -->
+            <a
+              class="carousel-control left"
+              href="#vegCarousel"
+              data-slide="prev"
+            >
+              <i class="fa fa-angle-left"></i>
+            </a>
+            <a
+              class="carousel-control right"
+              href="#vegCarousel"
+              data-slide="next"
+            >
+              <i class="fa fa-angle-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <div class="links">
+      <h2>About Us</h2>
+      <h2>Customer Care</h2>
+      <h2>Quick Links</h2>
+    </div>
+    <div id="copyright">
+      <h3>&copy; 2021</h3>
+    </div>
+  </footer>
+</html>
