@@ -4,7 +4,7 @@
 }
 
 .topnav a {
-  float: right;  
+  float: right;
   color: #d8f3dc;
   text-align: center;
   padding: 14px 16px;
@@ -23,13 +23,13 @@
   color: #f1faee;
 }
 #topwelcome {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 40px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 40px;
 }
 #toptag {
-    font-family: 'Charm', sans-serif;
-    font-size: 18px;
-    padding-top: 1%;
+  font-family: "Charm", sans-serif;
+  font-size: 18px;
+  padding-top: 1%;
 }
 header {
   background-image: url("../images/top.jpg");
@@ -87,16 +87,16 @@ h2 b {
   color: #74c69d;
 }
 h2::after {
-    content: "";
-    width: 150px;
-    position: absolute;
-    margin: 0 auto;
-    height: 4px;
-    background: #52b788;
-    left: 0;
-    right: 0;
-    bottom: -20px;
-  }
+  content: "";
+  width: 150px;
+  position: absolute;
+  margin: 0 auto;
+  height: 4px;
+  background: #52b788;
+  left: 0;
+  right: 0;
+  bottom: -20px;
+}
 .carousel {
   margin: 50px auto;
   padding: 0 70px;
@@ -189,12 +189,12 @@ h2::after {
   margin-right: -3px;
 }
 .carousel .carousel-control.right i {
-    margin-left: -3px;
-    color: #52b788;
-  }
-  .carousel .carousel-control.right i {
-    margin-right: -3px;
-  }
+  margin-left: -3px;
+  color: #52b788;
+}
+.carousel .carousel-control.right i {
+  margin-right: -3px;
+}
 .container {
   padding-top: 4%;
 }
@@ -205,27 +205,27 @@ h2::after {
   width: 66%;
 }
 footer {
-    background-image: url(../images/footer.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+  background-image: url(../images/footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
 }
 footer h2 {
-    color: #a8dadc;
+  color: #a8dadc;
 }
 .links {
-    width: 62%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  width: 62%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 #copyright {
-    padding-top: 5%;
-    margin-right: auto;
-    margin-left: auto;
-    font-size: 30px;
-    text-align: center;
-    color: #a8dadc;
+  padding-top: 5%;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 30px;
+  text-align: center;
+  color: #a8dadc;
 }

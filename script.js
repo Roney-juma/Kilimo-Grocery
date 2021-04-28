@@ -1,6 +1,6 @@
-function Grocery (name, price) {
-    this.name = name;
-    this.price = price;
+function Grocery(name, price) {
+  this.name = name;
+  this.price = price;
 }
 let Grocery1 = new Grocery("Apple", "40");
 let Grocery2 = new Grocery("Black Olives 100g", "250");
