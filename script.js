@@ -128,5 +128,14 @@ $(document).ready( function(){
         $(".location").hide();
         alert(customerName + ": Your total bill is   Ksh. " + totalCost + ". Your order will be delivered to " + estate + " Estate, House Number   " + houseNumber + " in 20 minutes time.We appriciate your coperation.");
     });
+    $("form").submit(function() {
+        var Name = $("#Name").val();
+        var Email = $("#Email").val();
+        var Message = $("#Message").val(); 
 
-})
+    if (Name == "" || Email == "" || Message == "") {
+    alert("Kindly Enter your details correctly!");
+    } 
+    else alert(" Hello " + Name + ", your message has been received and recorded successfully");
+    });
+});
