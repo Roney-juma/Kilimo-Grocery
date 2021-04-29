@@ -198,6 +198,21 @@ h2::after {
 .container {
   padding-top: 4%;
 }
+/* cart-css */
+.my-cart {
+  color: #74C69D;
+  background-color: white;
+}
+#checkout{
+  background-color: #74C69D;
+}
+.checkout-options{
+  color: #74C69D;
+}
+/* end-cart */
+.sub{
+  background-color: #74C69D; 
+}
 #mid {
   display: block;
   margin-left: auto;

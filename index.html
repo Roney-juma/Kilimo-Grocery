@@ -53,7 +53,7 @@
   <body>
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-7">
           <h2>Popular <b>Near You</b></h2>
           <div
             id="myCarousel"
@@ -77,7 +77,7 @@
                         <h4>Broccoli</h4>
                         <p class="item-price">Ksh 50.00</p>
 
-                        <button type="button" class="btn btn-success">
+                        <button type="button" class="btn btn-success" id="brocoli" value="50">
                           Add to Cart
                         </button>
                       </div>
@@ -96,7 +96,7 @@
                         <h4>Strawberries 100g</h4>
                         <p class="item-price">Ksh 100.00</p>
 
-                        <button type="button" class="btn btn-success">
+                        <button type="button" class="btn btn-success" id="straw" value="100">
                           Add to Cart
                         </button>
                       </div>
@@ -115,7 +115,7 @@
                         <h4>Cilantro</h4>
                         <p class="item-price">Ksh 5.00</p>
 
-                        <button type="button" class="btn btn-success">
+                        <button type="button" class="btn btn-success" id="cilantro" value="5">
                           Add to Cart
                         </button>
                       </div>
@@ -134,7 +134,7 @@
                         <h4>Avocado</h4>
                         <p class="item-price">Ksh 40.00</p>
 
-                        <button type="button" class="btn btn-success">
+                        <button type="button" class="btn btn-success" id="avocado" value="40">
                           Add to Cart
                         </button>
                       </div>
@@ -157,7 +157,7 @@
                         <h4>Green Peppers</h4>
                         <p class="item-price">Ksh 20.00</p>
 
-                        <button type="button" class="btn btn-success">
+                        <button type="button" class="btn btn-success" id="green" value="20">
                           Add to Cart
                         </button>
                       </div>
@@ -176,7 +176,7 @@
                         <h4>Black Olives 100g</h4>
                         <p class="item-price">Ksh 250.00</p>
 
-                        <button type="button" class="btn btn-success">
+                        <button type="button" class="btn btn-success" id="olives" value="250">
                           Add to Cart
                         </button>
                       </div>
@@ -195,7 +195,7 @@
                         <h4>Sukuma Wiki</h4>
                         <p class="item-price">Ksh 20.00</p>
 
-                        <button type="button" class="btn btn-success">
+                        <button type="button" class="btn btn-success" id="sukuma" value="20">
                           Add to Cart
                         </button>
                       </div>
@@ -214,7 +214,7 @@
                         <h4>Spinach</h4>
                         <p class="item-price">Ksh 20.00</p>
 
-                        <button type="button" class="btn btn-success">
+                        <button type="button" class="btn btn-success" id="spinach" value="20">
                           Add to Cart
                         </button>
                       </div>
@@ -237,7 +237,7 @@
                         <h4>Oranges</h4>
                         <p class="item-price">Ksh 15.00</p>
 
-                        <button type="button" class="btn btn-success">
+                        <button type="button" class="btn btn-success" id="oranges" value="15">
                           Add to Cart
                         </button>
                       </div>
@@ -256,7 +256,7 @@
                         <h4>White Onions</h4>
                         <p class="item-price">Ksh 15.00</p>
 
-                        <button type="button" class="btn btn-success">
+                        <button type="button" class="btn btn-success" id="onions" value="15">
                           Add to Cart
                         </button>
                       </div>
@@ -275,7 +275,7 @@
                         <h4>Cabbage</h4>
                         <p class="item-price">Ksh 50.00</p>
 
-                        <button type="button" class="btn btn-success">
+                        <button type="button" class="btn btn-success" id="cabbage" value="50">
                           Add to Cart
                         </button>
                       </div>
@@ -294,7 +294,7 @@
                         <h4>Tomato</h4>
                         <p class="item-price">Ksh 15.00</p>
 
-                        <button type="button" class="btn btn-success">
+                        <button type="button" class="btn btn-success" id="tomato" value="15">
                           Add to Cart
                         </button>
                       </div>
@@ -320,6 +320,51 @@
             </a>
           </div>
         </div>
+        <!-- cart-html -->
+        <div class="col-md-5">
+          <div class="container">
+            <div class="row">
+                <div class="col-md-7 my-cart hidden">
+                    <h2> shoping cart</h2>
+                    <div class="cart-items">
+                        <ul class="unordered">
+    
+                        </ul>
+                    </div>
+                        
+                        <p class="delivery-cost hidden">
+                            Delivery: Ksh. <span id="delivery-amount"></span>
+                        </p>
+                        <p class="total-amount hidden">
+                            Total: Ksh. <span id="total-amount"></span>
+                        </p>
+                        <br /><br />
+                    <button class="btn btn-primary hidden" id="checkout">Checkout</button>
+                </div>
+                <div class="col-md-5">
+                    <div class="checkout-options hide">
+                        <h3>Checkout Form</h3>
+                        <form id="checkout-form">
+                            <div class="form-group">
+                                <label>Enter your Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Enter Your Name" required  autocomplete="off"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Delivery Option</label>
+                                <select class="form-control" id="delivery-option" required>
+                                    <option value="">Choose...</option>
+                                    <option value="deliver">Delivery</option>
+                                    <option value="collect">Collection</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary sub">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+          </div>  
+        </div>
+        <!-- end cart-html -->
       </div>
     </div>
     <div id="mid">
@@ -351,7 +396,7 @@
                         <h4>Pears</h4>
                         <p class="item-price">Ksh 20.00</p>
 
-                        <button type="button" class="btn btn-success" id="pears">
+                        <button type="button" class="btn btn-success" id="pears" value="20">
                           Add to Cart
                         </button>
                       </div>
@@ -370,7 +415,7 @@
                         <h4>Strawberries 100g</h4>
                         <p class="item-price">Ksh 100.00</p>
 
-                        <button type="button" class="btn btn-success" id="straw">
+                        <button type="button" class="btn btn-success" id="straw" value="100">
                           Add to Cart
                         </button>
                       </div>
@@ -389,7 +434,7 @@
                         <h4>Oranges</h4>
                         <p class="item-price">Ksh 15.00</p>
 
-                        <button type="button" class="btn btn-success" id="oranges">
+                        <button type="button" class="btn btn-success" id="oranges" value="15">
                           Add to Cart
                         </button>
                       </div>
@@ -408,7 +453,7 @@
                         <h4>Avocado</h4>
                         <p class="item-price">Ksh 40.00</p>
 
-                        <button type="button" class="btn btn-success" id="avocado">
+                        <button type="button" class="btn btn-success" id="avocado" value="">
                           Add to Cart
                         </button>
                       </div>
@@ -431,7 +476,7 @@
                         <h4>Apple</h4>
                         <p class="item-price">Ksh 40.00</p>
 
-                        <button type="button" class="btn btn-success" id="apple">
+                        <button type="button" class="btn btn-success" id="apple" value="40">
                           Add to Cart
                         </button>
                       </div>
@@ -450,7 +495,7 @@
                         <h4>Black Olives 100g</h4>
                         <p class="item-price">Ksh 250.00</p>
 
-                        <button type="button" class="btn btn-success" id="olives">
+                        <button type="button" class="btn btn-success" id="olives" value="250">
                           Add to Cart
                         </button>
                       </div>
@@ -469,7 +514,7 @@
                         <h4>Lemon</h4>
                         <p class="item-price">Ksh 20.00</p>
 
-                        <button type="button" class="btn btn-success" id="lemon">
+                        <button type="button" class="btn btn-success" id="lemon" value="20">
                           Add to Cart
                         </button>
                       </div>
@@ -488,7 +533,7 @@
                         <h4>Mango</h4>
                         <p class="item-price">Ksh 40.00</p>
 
-                        <button type="button" class="btn btn-success" id="mango">
+                        <button type="button" class="btn btn-success" id="mango" value="40">
                           Add to Cart
                         </button>
                       </div>
@@ -511,7 +556,7 @@
                         <h4>Oranges</h4>
                         <p class="item-price">Ksh 15.00</p>
 
-                        <button type="button" class="btn btn-success" id="oranges">
+                        <button type="button" class="btn btn-success" id="oranges" value="15">
                           Add to Cart
                         </button>
                       </div>
@@ -530,7 +575,7 @@
                         <h4>White Onions</h4>
                         <p class="item-price">Ksh 15.00</p>
 
-                        <button type="button" class="btn btn-success" id="onions">
+                        <button type="button" class="btn btn-success" id="onions" value="15">
                           Add to Cart
                         </button>
                       </div>
@@ -549,7 +594,7 @@
                         <h4>Cabbage</h4>
                         <p class="item-price">Ksh 50.00</p>
 
-                        <button type="button" class="btn btn-success" id="cabbage">
+                        <button type="button" class="btn btn-success" id="cabbage" value="50">
                           Add to Cart
                         </button>
                       </div>
@@ -568,7 +613,7 @@
                         <h4>Tomato</h4>
                         <p class="item-price">Ksh 15.00</p>
 
-                        <button type="button" class="btn btn-success" id="tomato">
+                        <button type="button" class="btn btn-success" id="tomato" value="15">
                           Add to Cart
                         </button>
                       </div>
@@ -622,7 +667,7 @@
                         <h4>Broccoli</h4>
                         <p class="item-price">Ksh 50.00</p>
 
-                        <button type="button" class="btn btn-success" id="brocoli">
+                        <button type="button" class="btn btn-success" id="brocoli" value="50">
                           Add to Cart
                         </button>
                       </div>
@@ -641,7 +686,7 @@
                         <h4>Peas 100g</h4>
                         <p class="item-price">Ksh 100.00</p>
 
-                        <button type="button" class="btn btn-success" id="peas">
+                        <button type="button" class="btn btn-success" id="peas" value="100">
                           Add to Cart
                         </button>
                       </div>
@@ -660,7 +705,7 @@
                         <h4>Cilantro</h4>
                         <p class="item-price">Ksh 5.00</p>
 
-                        <button type="button" class="btn btn-success" id="cilantro">
+                        <button type="button" class="btn btn-success" id="cilantro" value="5">
                           Add to Cart
                         </button>
                       </div>
@@ -679,7 +724,7 @@
                         <h4>Zucchini</h4>
                         <p class="item-price">Ksh 30.00</p>
 
-                        <button type="button" class="btn btn-success" id="zuccini">
+                        <button type="button" class="btn btn-success" id="zuccini" value="30">
                           Add to Cart
                         </button>
                       </div>
@@ -702,7 +747,7 @@
                         <h4>Green Peppers</h4>
                         <p class="item-price">Ksh 20.00</p>
 
-                        <button type="button" class="btn btn-success" id="green">
+                        <button type="button" class="btn btn-success" id="green" value="20">
                           Add to Cart
                         </button>
                       </div>
@@ -721,7 +766,7 @@
                         <h4>Brussels Sprouts</h4>
                         <p class="item-price">Ksh 50.00</p>
 
-                        <button type="button" class="btn btn-success" id="sprouts">
+                        <button type="button" class="btn btn-success" id="sprouts" value="50">
                           Add to Cart
                         </button>
                       </div>
@@ -740,7 +785,7 @@
                         <h4>Sukuma Wiki</h4>
                         <p class="item-price">Ksh 20.00</p>
 
-                        <button type="button" class="btn btn-success" id="sukuma">
+                        <button type="button" class="btn btn-success" id="sukuma" value="20">
                           Add to Cart
                         </button>
                       </div>
@@ -759,7 +804,7 @@
                         <h4>Spinach</h4>
                         <p class="item-price">Ksh 20.00</p>
 
-                        <button type="button" class="btn btn-success" id="spinach">
+                        <button type="button" class="btn btn-success" id="spinach" value="20">
                           Add to Cart
                         </button>
                       </div>
@@ -782,7 +827,7 @@
                         <h4>carrots 50g</h4>
                         <p class="item-price">Ksh 50.00</p>
 
-                        <button type="button" class="btn btn-success" id="carrots">
+                        <button type="button" class="btn btn-success" id="carrots" value="50">
                           Add to Cart
                         </button>
                       </div>
@@ -801,7 +846,7 @@
                         <h4>White Onions</h4>
                         <p class="item-price">Ksh 15.00</p>
 
-                        <button type="button" class="btn btn-success" id="onions">
+                        <button type="button" class="btn btn-success" id="onions" value="15">
                           Add to Cart
                         </button>
                       </div>
@@ -820,7 +865,7 @@
                         <h4>Cabbage</h4>
                         <p class="item-price">Ksh 50.00</p>
 
-                        <button type="button" class="btn btn-success" id="cabbage">
+                        <button type="button" class="btn btn-success" id="cabbage" value="50">
                           Add to Cart
                         </button>
                       </div>
@@ -839,7 +884,7 @@
                         <h4>Tomato</h4>
                         <p class="item-price">Ksh 15.00</p>
 
-                        <button type="button" class="btn btn-success" id="tomato">
+                        <button type="button" class="btn btn-success" id="tomato" value="15">
                           Add to Cart
                         </button>
                       </div>
@@ -868,6 +913,8 @@
       </div>
     </div>
   </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
   <footer>
     <div class="links">
       <h2>About Us</h2>

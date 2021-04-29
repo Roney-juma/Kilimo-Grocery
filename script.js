@@ -49,59 +49,82 @@ $(document).ready( function(){
             return 50   
     }
     
+
     $("#brocoli").click(function(){
-        $(".cart-items").append(".Brocoli")
+        var broccoli=document.getElementById("brocoli").val;
+        $(".unordered").append("<li>" + broccoli + "<li>")
     });
     $("#mango").click(function(){
-        $(".cart-items").append(".Mango")
+        var mango=document.getElementById("mango").val;
+        $(".unordered").append("<li>" + mango + "<li>")
     });
     $("#lemon").click(function(){
-        $(".cart-items").append(".Lemon")
+        var lemon=document.getElementById("lemon").val;
+        $(".unordered").append("<li>" + lemon + "<li>")
     });
     $("#spinach").click(function(){
-        $(".cart-items").append(".Spinach")
+        var spinach=document.getElementById("spinach").val;
+        $(".unordered").append("<li>" + spinach + "<li>")
     });
     $("#sukuma").click(function(){
-        $(".cart-items").append(".Sukuma")
+        var sukuma=document.getElementById("sukuma").val;
+        $(".unordered").append("<li>" + sukuma + "<li>")
     });
     $("#peas").click(function(){
-        $(".cart-items").append(".Peas")
+        var peas=document.getElementById("peas").val;
+        $(".unordered").append("<li>" + peas + "<li>")
     });
     $("#avocado").click(function(){
-        $(".cart-items").append(".Avocado")
+        var avocado=document.getElementById("avocado").val;
+        $(".unordered").append("<li>" + avocado + "<li>")
     });
     $("#zucini").click(function(){
-        $(".cart-items").append(".Zuccini")
+        var zucchini=document.getElementById("zucchini").val;
+        $(".unordered").append("<li>" + zucchini + "<li>")
     });
     $("#tomato").click(function(){
-        $(".cart-items").append(".Tomato")
+        var tomato=document.getElementById("tomato").val;
+        $(".unordered").append("<li>" + tomato + "<li>")
     });
     $("#olives").click(function(){
-        $(".cart-items").append(".Black")
+        var olives=document.getElementById("olives").val;
+        $(".unordered").append("<li>" + olives + "<li>")
     });
     $("#apple").click(function(){
-        $(".cart-items").append(".Apple")
+        var apple=document.getElementById("apple").val;
+        $(".unordered").append("<li>" + apple + "<li>")
     });
     $("#straw").click(function(){
-        $(".cart-items").append(".Berries")
+        var strawberrie=document.getElementById("straw").val;
+        $(".unordered").append("<li>" + strawberrie + "<li>")
     });
     $("#pears").click(function(){
-        $(".cart-items").append(".Pears")
+        var pears=document.getElementById("pears").val;
+        $(".unordered").append("<li>" + pears + "<li>")
     });
     $("#sprouts").click(function(){
-        $(".cart-items").append(".Brussels")
+        var sprouts=document.getElementById("sprouts").val;
+        $(".unordered").append("<li>" + sprouts + "<li>")
     });
     $("#green").click(function(){
-        $(".cart-items").append(".Green")
+        var green=document.getElementById("green").val;
+        $(".unordered").append("<li>" + green + "<li>")
     });
     $("#carrots").click(function(){
-        $(".cart-items").append(".Carrots")
+        var carrots=document.getElementById("carrots").val;
+        $(".unordered").append("<li>" + carrots + "<li>")
     });
     $("#cabbage").click(function(){
-        $(".cart-items").append(".Cabbage")
+        var cabbage=document.getElementById("cabbage").val;
+        $(".unordered").append("<li>" + cabbage + "<li>")
+    });
+    $("#cilantro").click(function(){
+        var cilantro=document.getElementById("cilantro").val;
+        $(".unordered").append("<li>" + cilantro + "<li>")
     });
     $("#oranges").click(function(){
-        $(".cart-items").append(".Oranges")
+        var oranges=document.getElementById("oranges").val;
+        $(".unordered").append("<li>" + oranges + "<li>")
     });
 
     $("#checkout").click(function () {
