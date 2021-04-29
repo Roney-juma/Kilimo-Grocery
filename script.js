@@ -151,5 +151,16 @@ $(document).ready( function(){
             alert(customerName + ": Your total bill is Ksh. " + totalCost + ". Your order will be ready for collection in the next 15 minutes.");
         }
     });
+    $("#location-form").submit(function (event) {
+        event.preventDefault();
+        var estateEntered = $("#estate").val();
+        var houseNumberEntered = $("#house-number").val();
+        estate = estateEntered;
+        houseNumber = houseNumberEntered;
+        console.log(estate);
+        console.log(houseNumber);
+        $(".location").hide();
+        alert(customerName + ": Your total bill is   Ksh. " + totalCost + ". Your order will be delivered to " + estate + " Estate, House Number   " + houseNumber + " in 20 minutes time.We appriciate your coperation.");
+    });
 
 })

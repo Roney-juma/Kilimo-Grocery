@@ -60,7 +60,7 @@
   <body>
     <div class="container">
       <div class="row">
-        <div class="col-md-7">
+        <div class="col-md-12">
           <h2>Popular <b>Near You</b></h2>
           <div
             id="myCarousel"
@@ -328,10 +328,13 @@
           </div>
         </div>
         <!-- cart-html -->
-        <div class="col-md-5">
+        
+        <!-- end cart-html -->
+      </div>
+    </div>
           <div class="container">
             <div class="row">
-                <div class="col-md-7 my-cart hidden">
+                <div class="col-md-7 my-cart">
                     <h2> shoping cart</h2>
                     <div class="cart-items">
                         <ul class="unordered">
@@ -339,17 +342,17 @@
                         </ul>
                     </div>
                         
-                        <p class="delivery-cost hidden">
+                        <p class="delivery-cost">
                             Delivery: Ksh. <span id="delivery-amount"></span>
                         </p>
-                        <p class="total-amount hidden">
+                        <p class="total-amount">
                             Total: Ksh. <span id="total-amount"></span>
                         </p>
                         <br /><br />
                     <button class="btn btn-primary hidden" id="checkout">Checkout</button>
                 </div>
                 <div class="col-md-5">
-                    <div class="checkout-options hide">
+                    <div class="checkout-options">
                         <h3>Checkout Form</h3>
                         <form id="checkout-form">
                             <div class="form-group">
@@ -371,10 +374,7 @@
             </div>
           </div>  
         </div>
-        <!-- end cart-html -->
-      </div>
-    </div>
-    <div id="mid">
+      <div id="mid">
       <img src="./images/mid.jpg" alt="Fruits" />
     </div>
     <div class="container">
@@ -919,6 +919,52 @@
         </div>
       </div>
     </div>
+    <!-- location -->
+    <div class="container">
+      <div class="location">
+        <form id="location-form">
+            <h3>Enter Location</h3>
+            <div class="form-group">
+                <label>Estate</label>
+                <input type="text" class="form-control" id="estate" placeholder="Enter Your Location" required />
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">House Number</label>
+                <input type="text" class="form-control" id="house-number" placeholder="Enter Your House Number"
+                    required />
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+      <!--Contact us-->
+   <div class="container-fluid" id="contact">
+    <h1 class="text-center"><strong>Contact Us:</strong></h1>
+    <br>
+       <div class="container">
+           <form>
+               <div class="row">
+                   <div class="col-md-6">
+                       <input type="text" class="form-control" name="FNAME" id="Name" placeholder="Name" 
+                           style="background-color: white" style="text-emphasis-color: rgb(128, 68, 0)">
+                   </div>
+               
+                   <div class="col-md-6">
+                   <input type="text" class="form-control" name="EMAIL" id="Email" placeholder="Email@gmail.com" 
+                       style="background-color: white" style="text-emphasis-color: rgb(128, 68, 0)">
+                   </div>
+               </div>
+                   <br><br>
+                   <textarea class="form-control" rows="6" placeholder="write your message here..."
+                       style="background-color: white" style="text-emphasis-color: rgb(128, 68, 0)" name="MMERGE2" id="Message"></textarea>
+                   <br>
+               <div class="text-center">
+                   <button type="submit" id="submit" class="btn btn-primary">SUBMIT</button>
+               </div>
+           </form>
+       </div>
+   </div>
+   <br>
   </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="script.js"></script>
