@@ -1,87 +1,97 @@
 $(document).ready( function(){
-    function Grocery (item,price) {
-        this.price=price
-        this.item=item
-    }
-    // var newItem = new Grocery(price, item);
-
+   
+    
     $("#brocoli").click(function(){
         var broccoli = $("#brocoli").val();
-        alert(brocoli)
-        $(".unordered").append("<li>" + broccoli + "<li>" )
+        $(".unordered").append("<li>Broccoli Ksh. " + broccoli + "<li>" )
     });
     $("#mango").click(function(){
         var mango= $("#mango").val();
-        $(".unordered").append("<li> Mango  " + mango + "<li>")
+        $(".unordered").append("<li>Mango Ksh. " + mango + "<li>")
+    });
+    $("#onions").click(function(){
+        var onions= $("#onions").val();
+        $(".unordered").append("<li>White Onions Ksh. " + onions + "<li>")
     });
     $("#lemon").click(function(){
         var lemon= $("#lemon").val();
-        $(".unordered").append("<li> Lemon  " + lemon + "<li>")
+        $(".unordered").append("<li>Lemon Ksh. " + lemon + "<li>")
     });
     $("#spinach").click(function(){
         var spinach=$("#spinach").val();
-        $(".unordered").append("<li> Spinach  " + spinach + "<li>")
+        $(".unordered").append("<li>Spinach Ksh. " + spinach + "<li>")
     });
     $("#sukuma").click(function(){
         var sukuma= $("#sukuma").val();
-        $(".unordered").append("<li> Sukuma Wiki " + sukuma + "<li>")
+        $(".unordered").append("<li>Sukuma-Wiki Ksh. " + sukuma + "<li>")
     });
     $("#peas").click(function(){
         var peas= $("#peas").val();
-        $(".unordered").append("<li> Peas  " + peas + "<li>")
+        $(".unordered").append("<li>Peas Ksh. " + peas + "<li>")
     });
     $("#avocado").click(function(){
         var avocado= $("#avocado").val();
-        $(".unordered").append("<li> Avocado  " + avocado + "<li>")
+        $(".unordered").append("<li>Avocado Ksh. " + avocado + "<li>")
     });
     $("#zucini").click(function(){
-        var zucchini= $("#zucchini").val();
-        $(".unordered").append("<li> Zucchini  " + zucchini + "<li>")
+        var zucchini = $("#zucchini").val();
+        $(".unordered").append("<li>Zucchini Ksh. " + zucchini + "<li>")
     });
     $("#tomato").click(function(){
         var tomato= $("#tomato").val();
-        $(".unordered").append("<li> Tomato  " + tomato + "<li>")
+        $(".unordered").append("<li>Tomato Ksh. " + tomato + "<li>")
     });
     $("#olives").click(function(){
         var olives= $("#olives").val();
-        $(".unordered").append("<li> Olives  " + olives + "<li>")
+        $(".unordered").append("<li>Black Olives Ksh. " + olives + "<li>")
     });
     $("#apple").click(function(){
         var apple= $("#apple").val();
-        $(".unordered").append("<li> Apple  " + apple + "<li>")
+        $(".unordered").append("<li>Apple Ksh.  " + apple + "<li>")
     });
     $("#straw").click(function(){
         var strawberrie= $("#straw").val();
-        $(".unordered").append("<li> Strawberries  " + strawberrie + "<li>")
+        $(".unordered").append("<li>Strawberries Ksh. " + strawberrie + "<li>")
     });
     $("#pears").click(function(){
         var pears= $("#pears").val();
-        $(".unordered").append("<li> Pears  " + pears + "<li>")
+        $(".unordered").append("<li>Pears Ksh. " + pears + "<li>")
     });
     $("#sprouts").click(function(){
         var sprouts= $("#sprouts").val();
-        $(".unordered").append("<li>  Spouts  " + sprouts + "<li>")
+        $(".unordered").append("<li>Spouts Ksh. " + sprouts + "<li>")
     });
     $("#green").click(function(){
         var green= $("#green").val();
-        $(".unordered").append("<li>  Green  Peppers " + green + "<li>")
+        $(".unordered").append("<li>Green Peppers Ksh. " + green + "<li>")
     });
     $("#carrots").click(function(){
         var carrots= $("carrots").val();
-        $(".unordered").append("<li> Carrots  " + carrots + "<li>")
+        $(".unordered").append("<li>Carrots Ksh. " + carrots + "<li>")
     });
     $("#cabbage").click(function(){
         var cabbage= $("#cabbage").val();
-        $(".unordered").append("<li> Cabbage  " + cabbage + "<li>")
+        $(".unordered").append("<li>Cabbage Ksh. " + cabbage + "<li>")
     });
     $("#cilantro").click(function(){
         var cilantro= $("#cilantro").val();
-        $(".unordered").append("<li> Cilantro  " + cilantro + "<li>")
+        $(".unordered").append("<li>Cilantro Ksh. " + cilantro + "<li>")
     });
     $("#oranges").click(function(){
         var oranges= $("#oranges").val();
-        $(".unordered").append("<li> Oranges  " + oranges + "<li>")
+        $(".unordered").append("<li>Oranges Ksh. " + oranges + "<li>")
+
     });
+
+   
+
+    var prizes=[]
+    prizes.push(oranges,mango,onions,cabbage,carrots,cilantro,
+            straw,green,sprouts,pears,peas,apple,olives,tomato,
+            avocado,sukuma,spinach,lemon);
+
+
+
 
     $("#checkout").click(function () {
         $(".checkout-options").show();
