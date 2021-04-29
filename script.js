@@ -4,7 +4,7 @@ $(document).ready( function(){
         this.item=item
     }
     // var newItem = new Grocery(price, item);
-    
+
     $("#brocoli").click(function(){
         var broccoli = $("#brocoli").val();
         alert(brocoli)
@@ -12,75 +12,75 @@ $(document).ready( function(){
     });
     $("#mango").click(function(){
         var mango= $("#mango").val();
-        $(".unordered").append("<li>" + mango + "<li>")
+        $(".unordered").append("<li> Mango  " + mango + "<li>")
     });
     $("#lemon").click(function(){
         var lemon= $("#lemon").val();
-        $(".unordered").append("<li>" + lemon + "<li>")
+        $(".unordered").append("<li> Lemon  " + lemon + "<li>")
     });
     $("#spinach").click(function(){
         var spinach=$("#spinach").val();
-        $(".unordered").append("<li>" + spinach + "<li>")
+        $(".unordered").append("<li> Spinach  " + spinach + "<li>")
     });
     $("#sukuma").click(function(){
         var sukuma= $("#sukuma").val();
-        $(".unordered").append("<li>" + sukuma + "<li>")
+        $(".unordered").append("<li> Sukuma Wiki " + sukuma + "<li>")
     });
     $("#peas").click(function(){
         var peas= $("#peas").val();
-        $(".unordered").append("<li>" + peas + "<li>")
+        $(".unordered").append("<li> Peas  " + peas + "<li>")
     });
     $("#avocado").click(function(){
         var avocado= $("#avocado").val();
-        $(".unordered").append("<li>" + avocado + "<li>")
+        $(".unordered").append("<li> Avocado  " + avocado + "<li>")
     });
     $("#zucini").click(function(){
         var zucchini= $("#zucchini").val();
-        $(".unordered").append("<li>" + zucchini + "<li>")
+        $(".unordered").append("<li> Zucchini  " + zucchini + "<li>")
     });
     $("#tomato").click(function(){
         var tomato= $("#tomato").val();
-        $(".unordered").append("<li>" + tomato + "<li>")
+        $(".unordered").append("<li> Tomato  " + tomato + "<li>")
     });
     $("#olives").click(function(){
         var olives= $("#olives").val();
-        $(".unordered").append("<li>" + olives + "<li>")
+        $(".unordered").append("<li> Olives  " + olives + "<li>")
     });
     $("#apple").click(function(){
         var apple= $("#apple").val();
-        $(".unordered").append("<li>" + apple + "<li>")
+        $(".unordered").append("<li> Apple  " + apple + "<li>")
     });
     $("#straw").click(function(){
         var strawberrie= $("#straw").val();
-        $(".unordered").append("<li>" + strawberrie + "<li>")
+        $(".unordered").append("<li> Strawberries  " + strawberrie + "<li>")
     });
     $("#pears").click(function(){
         var pears= $("#pears").val();
-        $(".unordered").append("<li>" + pears + "<li>")
+        $(".unordered").append("<li> Pears  " + pears + "<li>")
     });
     $("#sprouts").click(function(){
         var sprouts= $("#sprouts").val();
-        $(".unordered").append("<li>" + sprouts + "<li>")
+        $(".unordered").append("<li>  Spouts  " + sprouts + "<li>")
     });
     $("#green").click(function(){
         var green= $("#green").val();
-        $(".unordered").append("<li>" + green + "<li>")
+        $(".unordered").append("<li>  Green  Peppers " + green + "<li>")
     });
     $("#carrots").click(function(){
         var carrots= $("carrots").val();
-        $(".unordered").append("<li>" + carrots + "<li>")
+        $(".unordered").append("<li> Carrots  " + carrots + "<li>")
     });
     $("#cabbage").click(function(){
         var cabbage= $("#cabbage").val();
-        $(".unordered").append("<li>" + cabbage + "<li>")
+        $(".unordered").append("<li> Cabbage  " + cabbage + "<li>")
     });
     $("#cilantro").click(function(){
         var cilantro= $("#cilantro").val();
-        $(".unordered").append("<li>" + cilantro + "<li>")
+        $(".unordered").append("<li> Cilantro  " + cilantro + "<li>")
     });
     $("#oranges").click(function(){
         var oranges= $("#oranges").val();
-        $(".unordered").append("<li>" + oranges + "<li>")
+        $(".unordered").append("<li> Oranges  " + oranges + "<li>")
     });
 
     $("#checkout").click(function () {
