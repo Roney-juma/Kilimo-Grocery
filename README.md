@@ -22,7 +22,7 @@ There are no known bugs at this moment.
 5. JQuery
 6. GIT
 ### Live Site
-View [live](https://github.io/Roney-juma/Kilimo-Grocery)
+View [live](https://roney-juma.github.io/Kilimo-Grocery/)
 ## Support and contact details
 For any questions, suggestions, contribution or assistance, reach me on aspin.isoe@student.moringaschool.com
 ### License
